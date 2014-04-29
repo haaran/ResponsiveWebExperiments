@@ -1,0 +1,59 @@
+body {
+	padding-top:70px;
+    position: relative;
+}
+
+.affix-top,.affix{
+	position: static;
+}
+
+@media (min-width: 768px and max-width: 991px) {
+
+  #sidebar.affix-top {
+  	position: static;
+  	width:220px;
+  }
+  
+  #sidebar.affix {
+  	position: fixed;
+  	top: 70px;
+  	width:220px;
+  }
+
+  #sidebar.affix-bottom {
+  	position: absolute;
+  	width:220px;
+  }
+}
+
+@media (min-width: 992px) {
+
+  #sidebar.affix-top {
+  	position: static;
+  	width:232px;
+  }
+  
+  #sidebar.affix {
+  	position: fixed;
+  	top: 70px;
+  	width:232px;
+  }
+
+  #sidebar.affix-bottom {
+  	position: absolute;
+  	width:232px;
+  }
+}
+
+
+#footer {
+  height:180px;
+  background-color:#ababac;
+  color:#ddd;
+  padding-top:30px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+	color: #444;
+	background-color: #eee;
+}
